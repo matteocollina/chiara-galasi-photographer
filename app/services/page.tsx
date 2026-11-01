@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 export const metadata: Metadata = {
-    "title": "Chiara Galasi Photographer &mdash; Flash Agency Website Template",
+    "title": "Chiara Galasi Photographer",
     "description": "",
     "alternates": {
         "canonical": "https://chiaragalasi.it/services"
