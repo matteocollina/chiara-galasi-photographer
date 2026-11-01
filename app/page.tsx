@@ -1,12 +1,51 @@
+export const dynamic = "force-dynamic";
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
+import { getCatalog } from "@/lib/server/public-catalog";
 export const metadata: Metadata = {
-    "title": "Chiara Galasi Photographer | Sito Web ufficiale",
-    "description": "Sito ufficiale di Chiara Galasi, appassionata di fotografia.",
-    "alternates": {
-        "canonical": "https://chiaragalasi.it/"
-    }
+  title: "Chiara Galasi Photographer | Sito Web ufficiale",
+  description: "Sito ufficiale di Chiara Galasi, appassionata di fotografia.",
+  alternates: { canonical: "/" },
 };
-export default function Page() {
-    return (<div className={"container-fluid"}><div className={"row"}><div className={"col-lg-4"}><div className={"image-wrap-2"}><div className={"image-info"}><h2 className={"mb-3"}>{"Portrait"}</h2><a href={"/ritratti"} className={"btn btn-outline-white py-2 px-4"}>{"More Photos"}</a></div><Image src={"/images/Portrait/eli 1.jpg"} alt={"Portrait Photos"} className={"img-fluid"} width={2848} height={4272} sizes={"(max-width: 767px) 100vw, 50vw"}/></div></div><div className={"col-lg-4"}><div className={"image-wrap-2"}><div className={"image-info"}><h2 className={"mb-3"}>{"Maternity & New Born"}</h2><a href={"/maternita-e-nascite"} className={"btn btn-outline-white py-2 px-4"}>{"More Photos"}</a></div><Image src={"/images/Maternity%20%26%20New%20Born/3.jpg"} alt={"New Born And Maternity"} className={"img-fluid"} width={2848} height={4272} sizes={"(max-width: 767px) 100vw, 50vw"}/></div></div><div className={"col-lg-4"}><div className={"image-wrap-2"}><div className={"image-info"}><h2 className={"mb-3"}>{"Food"}</h2><a href={"/food"} className={"btn btn-outline-white py-2 px-4"}>{"More Photos"}</a></div><Image src={"/images/Food/vongole.jpg"} alt={"Food"} className={"img-fluid"} width={2848} height={4272} sizes={"(max-width: 767px) 100vw, 50vw"}/></div></div></div></div>);
+export default async function Page() {
+  const categories = (await getCatalog()).filter(
+    (category) => category.images.length,
+  );
+  return (
+    <div className="container-fluid">
+      <div className="row">
+        {categories.map((category, index) => {
+          const cover =
+            category.images.find((photo) => photo.id === category.coverId) ??
+            category.images[0];
+          return (
+            <div className="col-lg-4" key={category.id}>
+              <div className="image-wrap-2">
+                <div className="image-info">
+                  <h2 className="mb-3">{category.name}</h2>
+                  <Link
+                    href={`/${category.slug}`}
+                    className="btn btn-outline-white py-2 px-4"
+                  >
+                    More Photos
+                  </Link>
+                </div>
+                <Image
+                  unoptimized={cover.src.startsWith("/")}
+                  src={cover.src}
+                  alt={cover.alt}
+                  width={cover.width}
+                  height={cover.height}
+                  className="img-fluid"
+                  sizes="(max-width: 991px) 100vw, 33vw"
+                  preload={index === 0}
+                />
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
 }

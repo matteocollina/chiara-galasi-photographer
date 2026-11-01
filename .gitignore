@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local admin handover and local integration databases
+.admin-credentials.local
+*.db
+*.db-shm
+*.db-wal
+!.env.example
