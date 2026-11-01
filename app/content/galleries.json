@@ -1,0 +1,266 @@
+{
+  "maternita-e-nascite": {
+    "title": "Maternity & New Born Gallery",
+    "intro": "Le sessioni di fotografia maternity sono un'opportunità per catturare la bellezza e la forza della futura mamma, e per celebrare la vita che cresce dentro di lei.",
+    "images": [
+      {
+        "src": "/images/Maternity%20%26%20New%20Born/3.jpg",
+        "alt": "maternita e nascite — fotografia 1",
+        "width": 2848,
+        "height": 4272
+      },
+      {
+        "src": "/images/Maternity%20%26%20New%20Born/5.jpg",
+        "alt": "maternita e nascite — fotografia 2",
+        "width": 2848,
+        "height": 4272
+      },
+      {
+        "src": "/images/Maternity%20%26%20New%20Born/9.jpg",
+        "alt": "maternita e nascite — fotografia 3",
+        "width": 2848,
+        "height": 4272
+      },
+      {
+        "src": "/images/Maternity%20%26%20New%20Born/pancione.jpg",
+        "alt": "maternita e nascite — fotografia 4",
+        "width": 2848,
+        "height": 4272
+      },
+      {
+        "src": "/images/Maternity%20%26%20New%20Born/polpet.jpg",
+        "alt": "maternita e nascite — fotografia 5",
+        "width": 2848,
+        "height": 4272
+      }
+    ]
+  },
+  "ritratti": {
+    "title": "Editorial Gallery",
+    "intro": "La fotografia di ritratti è un'arte che permette di catturare l'essenza di una persona in un'immagine. È un'opportunità per celebrare la bellezza unica di ogni individuo e preservare i momenti più importanti della vita. Una sessione fotografica di ritratti può essere un'esperienza intima e personale, che consente di esprimere la propria personalità attraverso l'immagine.",
+    "images": [
+      {
+        "src": "/images/Portrait/eli%2048.jpg",
+        "alt": "ritratti — fotografia 1",
+        "width": 2848,
+        "height": 4272
+      },
+      {
+        "src": "/images/Portrait/Greta%202.jpeg",
+        "alt": "Greta Margheritini 2",
+        "width": 853,
+        "height": 1280
+      },
+      {
+        "src": "/images/Portrait/VytauteSiauciulyte_1.webp",
+        "alt": "Vytaute Siauciulyte 1",
+        "width": 1200,
+        "height": 1799
+      },
+      {
+        "src": "/images/Portrait/eli%201.jpg",
+        "alt": "ritratti — fotografia 4",
+        "width": 2848,
+        "height": 4272
+      },
+      {
+        "src": "/images/Portrait/Greta%204.jpeg",
+        "alt": "Greta Margheritini 4",
+        "width": 853,
+        "height": 1280
+      },
+      {
+        "src": "/images/Portrait/AnastasiaGavrutenko_2.webp",
+        "alt": "Anastasia Gavrutenko Portrait 2",
+        "width": 1200,
+        "height": 874
+      },
+      {
+        "src": "/images/Portrait/eli%2031.jpg",
+        "alt": "ritratti — fotografia 7",
+        "width": 2848,
+        "height": 4272
+      },
+      {
+        "src": "/images/Portrait/AnastasiaGavrutenko_3.webp",
+        "alt": "Anastasia Gavrutenko Portrait 3",
+        "width": 5464,
+        "height": 8192
+      },
+      {
+        "src": "/images/Portrait/AnastasiaGavrutenko_4.webp",
+        "alt": "Anastasia Gavrutenko Portrait 4",
+        "width": 5464,
+        "height": 8192
+      },
+      {
+        "src": "/images/Portrait/Greta%201%20.jpeg",
+        "alt": "Greta Margheritini 1",
+        "width": 853,
+        "height": 1280
+      },
+      {
+        "src": "/images/Portrait/ELIS%2024.jpg",
+        "alt": "ritratti — fotografia 11",
+        "width": 2848,
+        "height": 4272
+      },
+      {
+        "src": "/images/Portrait/Greta%205.jpeg",
+        "alt": "Greta Margheritini 5",
+        "width": 853,
+        "height": 1280
+      },
+      {
+        "src": "/images/Portrait/AnastasiaGavrutenko_5.webp",
+        "alt": "Anastasia Gavrutenko Portrait 5",
+        "width": 5464,
+        "height": 8192
+      },
+      {
+        "src": "/images/Portrait/eli%203.jpg",
+        "alt": "ritratti — fotografia 14",
+        "width": 2848,
+        "height": 4272
+      },
+      {
+        "src": "/images/Portrait/Greta%203.jpeg",
+        "alt": "Greta Margheritini 3",
+        "width": 853,
+        "height": 1280
+      },
+      {
+        "src": "/images/Portrait/photo1679933289.jpeg",
+        "alt": "Modella Milano",
+        "width": 1178,
+        "height": 1280
+      },
+      {
+        "src": "/images/Portrait/photo1679933288.jpeg",
+        "alt": "Modella Milano",
+        "width": 853,
+        "height": 1280
+      },
+      {
+        "src": "/images/Portrait/AnastasiaGavrutenko_6.webp",
+        "alt": "Anastasia Gavrutenko Portrait 6",
+        "width": 5464,
+        "height": 8192
+      },
+      {
+        "src": "/images/Portrait/Greta%206.jpeg",
+        "alt": "Greta Margheritini 6",
+        "width": 853,
+        "height": 1280
+      },
+      {
+        "src": "/images/Portrait/eli8.jpg",
+        "alt": "ritratti — fotografia 20",
+        "width": 2848,
+        "height": 4272
+      },
+      {
+        "src": "/images/Portrait/photo1679933394.jpeg",
+        "alt": "Modella Milano",
+        "width": 809,
+        "height": 1280
+      },
+      {
+        "src": "/images/Portrait/AnastasiaGavrutenko_7.webp",
+        "alt": "Anastasia Gavrutenko Portrait 7",
+        "width": 1200,
+        "height": 1799
+      },
+      {
+        "src": "/images/Portrait/ELISA%2019.jpg",
+        "alt": "ritratti — fotografia 23",
+        "width": 2848,
+        "height": 4272
+      },
+      {
+        "src": "/images/Portrait/Greta%207.jpeg",
+        "alt": "Greta Margheritini 7",
+        "width": 853,
+        "height": 1280
+      },
+      {
+        "src": "/images/Portrait/VytauteSiauciulyte_2.webp",
+        "alt": "Vytaute Siauciulyte 2",
+        "width": 1200,
+        "height": 1799
+      },
+      {
+        "src": "/images/Portrait/eli%207.jpg",
+        "alt": "ritratti — fotografia 26",
+        "width": 2848,
+        "height": 4272
+      },
+      {
+        "src": "/images/Portrait/VytauteSiauciulyte_3.webp",
+        "alt": "Vytaute Siauciulyte 3",
+        "width": 1200,
+        "height": 1799
+      },
+      {
+        "src": "/images/Portrait/Greta%208.jpg",
+        "alt": "Greta Margheritini 8",
+        "width": 853,
+        "height": 1280
+      },
+      {
+        "src": "/images/Portrait/photo1679933443.jpeg",
+        "alt": "Modella Milano",
+        "width": 995,
+        "height": 1280
+      },
+      {
+        "src": "/images/Portrait/photo1679933288%20%281%29.jpeg",
+        "alt": "Modella Milano",
+        "width": 853,
+        "height": 1280
+      }
+    ]
+  },
+  "food": {
+    "title": "Food Gallery",
+    "intro": "La food photography, o fotografia di cibo, è una specializzazione della fotografia che si concentra sulla creazione di immagini attraenti e invitanti di piatti di cibo. È diventata sempre più importante negli ultimi anni grazie all'aumento della popolarità dei social media e alla crescita dell'interesse per il cibo e la cucina. Le fotografie di cibo ben realizzate possono influenzare il modo in cui le persone percepiscono un piatto e il modo in cui lo apprezzano. La presentazione del cibo è diventata un'arte a sé stante, e le fotografie di cibo sono diventate un mezzo importante per la promozione di ristoranti, chef e produttori alimentari. Inoltre, la fotografia di cibo può anche essere utilizzata per scopi educativi, come ad esempio insegnare tecniche di cucina o informare il pubblico sui valori nutrizionali degli alimenti.",
+    "images": [
+      {
+        "src": "/images/Food/ape%20con%20birra.jpg",
+        "alt": "food — fotografia 1",
+        "width": 2848,
+        "height": 4272
+      },
+      {
+        "src": "/images/Food/caffe.jpg",
+        "alt": "food — fotografia 2",
+        "width": 2848,
+        "height": 4272
+      },
+      {
+        "src": "/images/Food/cozze.jpg",
+        "alt": "food — fotografia 3",
+        "width": 2848,
+        "height": 4144
+      },
+      {
+        "src": "/images/Food/pacchero%203.jpg",
+        "alt": "food — fotografia 4",
+        "width": 2848,
+        "height": 3824
+      },
+      {
+        "src": "/images/Food/pacchero.jpg",
+        "alt": "food — fotografia 5",
+        "width": 2848,
+        "height": 4272
+      },
+      {
+        "src": "/images/Food/pcchero.jpg",
+        "alt": "food — fotografia 6",
+        "width": 2480,
+        "height": 3600
+      }
+    ]
+  }
+}
